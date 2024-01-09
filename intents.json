@@ -1,0 +1,63 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "What's up?", "Yo", "Greetings"],
+        "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Byy", "See you later", "Goodbye", "Farewell", "Take care"],
+        "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Appreciate it"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {
+        "tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me about yourself"],
+        "responses": ["I'm Jarvis, your bot assistant", "I'm Jarvis, an Artificial Intelligent Bot"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?", "Tell me your name"],
+        "responses": ["You can call me Jarvis or Buddy.", "I'm Jarvis!", "Just call me as Jarvis"]
+    },
+    {
+        "tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+        "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {
+        "tag": "createaccount",
+        "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+        "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {
+        "tag": "complaint",
+        "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service", "I'm dissatisfied with your service"],
+        "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Tell me the weather forecast", "How's the weather?", "Is it going to rain today?"],
+        "responses": ["I'm sorry, I don't have real-time weather information. You can check a reliable weather website or app for the latest updates."]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Give me something funny", "Can you make me laugh?"],
+        "responses": ["Sure, here's one: Why don't scientists trust atoms? Because they make up everything!"]
+    },
+    {
+        "tag": "music",
+        "patterns": ["Recommend some music", "What's a good song?", "Play me a song"],
+        "responses": ["I recommend checking out 'Shape of You' by Ed Sheeran. It's a popular choice!"]
+    },
+    {
+        "tag": "error",
+        "patterns": ["I don't understand", "What do you mean?", "Can you repeat that?", "Sorry, I didn't get it"],
+        "responses": ["I'm sorry, I didn't understand your question. Please try asking in a different way."]
+    }
+]
+}
